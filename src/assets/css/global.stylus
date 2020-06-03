@@ -1,0 +1,31 @@
+*
+    padding: 0
+    margin: 0
+
+.window
+    --padding: 15px
+    --bg-color: rgba(128, 128, 255, 0.2);
+    --title-color: #999;
+    --title-size: 16px;
+    --content-color: #ddd;
+    --content-size: 14px;
+    --decoration-color: #ddd;
+
+    .title
+        display: inline-block;
+        font-size: var(--title-size);
+        line-height: 1;
+        padding-bottom: var(--padding);
+        color: var(--title-color);
+        border-bottom: 2px solid var(--decoration-color);
+    
+    .content
+        padding-top: var(--padding);
+        font-size: var(--content-size);
+        color: var(--content-color);
+
+.page
+    box-sizing: border-box
+    background-color #000;
+    width: 100vw
+    min-height 100vh
