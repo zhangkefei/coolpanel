@@ -1,9 +1,9 @@
 <template>
-    <div class="window simple">
+    <div class="cp-window simple">
         <div class="corner top-left"></div>
         <div class="corner top-right"></div>
-        <div class="title" v-if="title">{{title}}</div>
-        <div class="content" :style="{paddingTop: title ? 'var(--padding)' : 0}">
+        <div class="cp-title" v-if="title">{{title}}</div>
+        <div class="cp-content" :style="{paddingTop: title ? 'var(--padding)' : 0}">
             <slot></slot>
         </div>
         <div class="corner bottom-left"></div>

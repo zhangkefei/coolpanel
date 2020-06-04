@@ -2,7 +2,7 @@
     padding: 0
     margin: 0
 
-.window
+.cp-window
     --padding: 15px
     --bg-color: rgba(128, 128, 255, 0.2);
     --title-color: #999;
@@ -11,7 +11,10 @@
     --content-size: 14px;
     --decoration-color: #ddd;
 
-    .title
+    box-sizing: border-box
+    position relative
+
+    .cp-title
         display: inline-block;
         font-size: var(--title-size);
         line-height: 1;
@@ -19,12 +22,12 @@
         color: var(--title-color);
         border-bottom: 2px solid var(--decoration-color);
     
-    .content
+    .cp-content
         padding-top: var(--padding);
         font-size: var(--content-size);
         color: var(--content-color);
 
-.page
+.cp-page
     box-sizing: border-box
     background-color #000;
     width: 100vw

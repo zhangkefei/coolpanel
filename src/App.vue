@@ -5,7 +5,7 @@
 </template>
 
 <style lang="stylus">
-@import './assets/css/global.stylus';
+@import './coolpanel/css/global.stylus';
 
 #app {
     font-family: Avenir, Helvetica, Arial, sans-serif;

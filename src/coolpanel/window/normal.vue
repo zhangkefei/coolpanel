@@ -1,7 +1,7 @@
 <template>
-    <div class="window normal">
-        <div class="title" v-if="title">{{title}}</div>
-        <div class="content" :style="{paddingTop: title ? 'var(--padding)' : 0}">
+    <div class="cp-window normal">
+        <div class="cp-title" v-if="title">{{title}}</div>
+        <div class="cp-content" :style="{paddingTop: title ? 'var(--padding)' : 0}">
             <slot></slot>
         </div>
     </div>

@@ -1,11 +1,11 @@
 <template>
-    <div class="window wrap" :style="{'--edge': edge + 'px'}">
+    <div class="cp-window wrap" :style="{'--edge': edge + 'px'}">
         <div class="left"></div>
         <div class="main">
             <div class="edge top-left"></div>
             <div class="edge top-right"></div>
-            <div class="title" v-if="title">{{title}}</div>
-            <div class="content" :style="{paddingTop: title ? 'var(--padding)' : 0}">
+            <div class="cp-title" v-if="title">{{title}}</div>
+            <div class="cp-content" :style="{paddingTop: title ? 'var(--padding)' : 0}">
                 <slot></slot>
             </div>
             <div class="edge bottom-left"></div>
@@ -33,7 +33,7 @@ export default {
 <style lang="stylus" scoped>
 .wrap {
     box-sizing: border-box;
-    min-height: 200px;
+    min-height: 150px;
     display: flex;
 
     .main {
