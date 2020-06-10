@@ -1,5 +1,5 @@
 <template>
-    <div class="home">
+    <div class="cp-page home">
         <router-link to="/panel">panel</router-link>
         <router-link to="/window">window</router-link>
     </div>
@@ -11,3 +11,14 @@ export default {
     components: {}
 };
 </script>
+
+<style lang="stylus" scoped>
+.home {
+    a {
+        font-size: 24px;
+        text-decoration: none;
+        color: #ddd;
+        display: block;
+    }
+}
+</style>
